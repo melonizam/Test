@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+
+
+    <item android:title="Grade-11">
+        <menu>
+            <item
+                android:id="@+id/nav_sci_11"
+                android:icon="@drawable/ic_science"
+                android:title="Science" />
+            <item
+                android:id="@+id/nav_man_11"
+                android:icon="@drawable/ic_management"
+                android:title="Management" />
+            <item
+                android:id="@+id/nav_hum_11"
+                android:icon="@drawable/ic_humanities"
+                android:title="Humanities" />
+        </menu>
+    </item>
+
+    <item android:title="Grade-12">
+        <menu>
+            <item
+                android:id="@+id/nav_sci_12"
+                android:icon="@drawable/ic_science"
+                android:title="Science" />
+            <item
+                android:id="@+id/nav_man_12"
+                android:icon="@drawable/ic_management"
+                android:title="Management" />
+            <item
+                android:id="@+id/nav_hum_12"
+                android:icon="@drawable/ic_humanities"
+                android:title="Humanities" />
+        </menu>
+    </item>
+
+    <item android:title="Bachelors">
+        <menu>
+            <item
+                android:id="@+id/nav_bba"
+                android:icon="@drawable/ic_bba"
+                android:title="BBA" />
+            <item
+                android:id="@+id/nav_ce"
+                android:icon="@drawable/ic_ce"
+                android:title="Civil Engineering" />
+            <item
+                android:id="@+id/nav_law"
+                android:icon="@drawable/ic_law"
+                android:title="Law" />
+            <item
+                android:id="@+id/nav_it"
+                android:icon="@drawable/ic_it"
+                android:title="Information Technology" />
+        </menu>
+    </item>
+
+</menu>
